@@ -94,6 +94,7 @@ vendor.qcom.bluetooth.soc=hastings
 
 # Camera
 vendor.camera.aux.packageexcludelist=org.telegram.messenger,org.thunderdog.challegram
+vendor.camera.aux.packagelist=org.pixelexperience.faceunlock
 
 # Chipset
 ro.soc.manufacturer=Qualcomm
