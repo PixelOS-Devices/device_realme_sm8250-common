@@ -1,0 +1,5 @@
+# brightness
+type sysfs_oem, sysfs_type, fs_type;
+
+# files
+type public_adsprpcd_file, file_type;

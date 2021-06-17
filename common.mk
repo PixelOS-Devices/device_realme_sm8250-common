@@ -23,6 +23,9 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 # Inherit proprietary libraries
 $(call inherit-product, vendor/realme/sm8250-common/sm8250-common-vendor.mk)
 
+# OnePlus Camera
+$(call inherit-product-if-exists, vendor/oneplus/apps/sm8250/config.mk)
+
 # ANT
 PRODUCT_PACKAGES += \
     com.dsi.ant@1.0.vendor
@@ -121,6 +124,7 @@ TARGET_SCREEN_HEIGHT := 2400
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service_64 \
+    libcamera2ndk_vendor \
     vendor.qti.hardware.camera.device@1.0.vendor \
     vendor.qti.hardware.camera.postproc@1.0.vendor
 
@@ -221,7 +225,9 @@ PRODUCT_PACKAGES += \
 
 # HIDL
 PRODUCT_PACKAGES += \
+    libhidltransport \
     libhidltransport.vendor \
+    libhwbinder \
     libhwbinder.vendor
 
 # IPACM
@@ -348,6 +354,10 @@ PRODUCT_PACKAGES += \
     libqti_vndfwk_detect.vendor \
     libvndfwk_detect_jni.qti \
     libvndfwk_detect_jni.qti.vendor
+
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
 
 # RIL
 PRODUCT_PACKAGES += \

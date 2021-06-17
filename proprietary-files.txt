@@ -727,6 +727,7 @@ odm/lib64/libui.so
 odm/lib64/libwatermark_photo.so
 odm/lib64/vendor.oplus.hardware.cammidasservice@1.0.so
 odm/lib64/vendor.oplus.hardware.orms@1.0.so
+vendor/etc/init/vl53l1.rc
 vendor/lib/libcamxexternalformatutils.so
 vendor/lib64/camera/components/com.qti.camx.chiiqutils.so
 vendor/lib64/camera/components/com.qti.eisv2.so
