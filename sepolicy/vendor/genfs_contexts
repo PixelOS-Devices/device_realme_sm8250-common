@@ -1,0 +1,3 @@
+# Graphics
+genfscon sysfs /devices/platform/soc/soc:qcom,msm-ext-disp/extcon/extcon2/name       u:object_r:vendor_sysfs_graphics:s0
+genfscon sysfs /devices/platform/soc/soc:qcom,msm-ext-disp/extcon/extcon3/name       u:object_r:vendor_sysfs_graphics:s0
