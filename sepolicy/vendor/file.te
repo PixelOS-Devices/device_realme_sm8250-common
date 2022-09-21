@@ -1,0 +1,4 @@
+# Camera
+type cam_laser_sysfs, fs_type, sysfs_type;
+type public_adsprpcd_file, file_type;
+type vendor_persist_camera_file, file_type;

@@ -126,6 +126,7 @@ system_ext/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
 system_ext/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
 
 # Camera
+odm/bin/hw/vendor.oplus.hardware.performance@1.0-service
 odm/etc/camera/aicolor/duallut_background.bmp
 odm/etc/camera/aicolor/duallut_portrait.bmp
 odm/etc/camera/ancsegbase/anc_cl_kernel.cache
@@ -553,7 +554,10 @@ odm/etc/camera/mtStereoParams.bin
 odm/etc/camera/mwStereoParams.bin
 odm/etc/camera/settings_fdc_lite.txt
 odm/etc/camera/wide.bin
+odm/etc/init/vendor.oplus.hardware.performance@1.0-service.rc
+odm/lib/libAlgoInterface.so
 odm/lib/libDeVIS.so
+odm/lib/libVDBlurlessAPI_v2.so
 odm/lib/libc++_shared.so
 odm/lib64/camera/components/com.oplus.node.aiaftrack.so
 odm/lib64/camera/components/com.oplus.node.drawafinfo.so
@@ -572,6 +576,9 @@ odm/lib64/camera/components/com.oplus.node.videonight.so
 odm/lib64/camera/components/com.qti.node.remosaic.so
 odm/lib64/camera/components/com.qti.stats.pdlib.so
 odm/lib64/camera/components/libipebpsstriping.so
+odm/lib64/android.hardware.graphics.allocator@2.0.so
+odm/lib64/android.hardware.graphics.allocator@3.0.so
+odm/lib64/android.hardware.graphics.allocator@4.0.so
 odm/lib64/lib2DSlender.so
 odm/lib64/libAlgoInterface.so
 odm/lib64/libAlgoProcess.so
@@ -585,6 +592,7 @@ odm/lib64/libAncHumanSegFigureFusion.so
 odm/lib64/libAncSegBaseSdk.so
 odm/lib64/libAncSegmentSdk.so
 odm/lib64/libBokehPre.so
+odm/lib64/libCNamaSDK_vendor.so
 odm/lib64/libCOppLceTonemapAPI.so
 odm/lib64/libCaptureBokeh.so
 odm/lib64/libDeVIS.so
@@ -727,6 +735,15 @@ odm/lib64/libui.so
 odm/lib64/libwatermark_photo.so
 odm/lib64/vendor.oplus.hardware.cammidasservice@1.0.so
 odm/lib64/vendor.oplus.hardware.orms@1.0.so
+system_ext/lib64/libAPSClient-jni.qti.so
+system_ext/lib64/libAncHumBokeh-jni.qti.so
+system_ext/lib64/libApsFaceBeautyPreviewJni.qti.so
+system_ext/lib64/libHeifEncoderWrapper.so
+system_ext/lib64/libNativeWinBuffExchange.so
+system_ext/lib64/libjnistblur_api.qti.so
+system_ext/lib64/liboplusheifwriter.so
+system_ext/lib64/vendor.oplus.hardware.cameraMDM@1.0.so
+system_ext/lib64/vendor.oplus.hardware.commondcs@1.0.so
 vendor/lib/libcamxexternalformatutils.so
 vendor/lib64/camera/components/com.qti.camx.chiiqutils.so
 vendor/lib64/camera/components/com.qti.eisv2.so
@@ -788,6 +805,7 @@ vendor/lib64/libFace3DTA.so
 vendor/lib64/libFace3D_hlos.so
 vendor/lib64/libQ6MSFR_manager_stub.so
 vendor/lib64/libbitmlengine.so
+vendor/lib64/libcamera2ndk_vendor.so
 vendor/lib64/libcamera_nn_stub.so
 vendor/lib64/libcamerapostproc.so
 vendor/lib64/libcamxexternalformatutils.so
@@ -801,6 +819,9 @@ vendor/lib64/libcamxstatscore.so
 vendor/lib64/libcamxswispiqmodule.so
 vendor/lib64/libcamxswprocessalgo.so
 vendor/lib64/libcamxtintlessalgo.so
+vendor/lib64/libcapiv2svacnn.so
+vendor/lib64/libcapiv2svarnn.so
+vendor/lib64/libcapiv2vop.so
 vendor/lib64/libchilog.so
 vendor/lib64/libcom.qti.chinodeutils.so
 vendor/lib64/libcvp2.so
@@ -810,6 +831,8 @@ vendor/lib64/libcvpcpuRev_skel.so
 vendor/lib64/libextcamera_client.so
 vendor/lib64/libface3d_dev.so
 vendor/lib64/libgui1_vendor.so
+vendor/lib64/libhdrdynamic.so
+vendor/lib64/libhdrdynamicootf.so
 vendor/lib64/libmidasserviceintf.so
 vendor/lib64/libmmcamera_faceproc.so
 vendor/lib64/libmmcamera_faceproc2.so
@@ -832,6 +855,27 @@ odm/vendor/firmware/ois_bu63169_sec.coeff
 odm/vendor/firmware/ois_bu63169_sec.prog
 odm/vendor/firmware/ois_sem1215s_19066_dvt.bin
 vendor/firmware/CAMERA_ICP.elf
+
+# Camera (OSS)
+system/lib/libcameraservice.so|8a237599127ff183927bc444af37ab39bbb605b1
+system/lib64/libcameraservice.so|69639b4d2eaa00e27388221299322803a4bf3e5b
+system/lib64/vendor.oplus.hardware.performance@1.0.so
+system_ext/lib64/libcsextimpl.so|0b39e3a71e969e0b66f85ff338ab6c28468abe18
+vendor/lib/camera.device@3.2-impl.so
+vendor/lib/camera.device@3.3-impl.so
+vendor/lib/camera.device@3.4-external-impl.so
+vendor/lib/camera.device@3.4-impl.so
+vendor/lib/camera.device@3.5-external-impl.so
+vendor/lib/camera.device@3.5-impl.so
+vendor/lib/camera.device@3.6-external-impl.so
+vendor/lib64/camera.device@3.2-impl.so
+vendor/lib64/camera.device@3.3-impl.so
+vendor/lib64/camera.device@3.4-external-impl.so
+vendor/lib64/camera.device@3.4-impl.so
+vendor/lib64/camera.device@3.5-external-impl.so
+vendor/lib64/camera.device@3.5-impl.so
+vendor/lib64/camera.device@3.6-external-impl.so
+
 
 # CDSP
 vendor/bin/cdsprpcd
@@ -1641,6 +1685,7 @@ vendor/etc/sensors/config/wigig_sensing_0.json
 vendor/etc/sensors/sns_reg_config
 vendor/lib64/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so
 vendor/lib64/libsensorcal.so
+vendor/lib64/libsensorndkbridge.so
 vendor/lib64/libsensorslog.so
 vendor/lib64/libsns_device_mode_stub.so
 vendor/lib64/libsns_fastRPC_util.so
