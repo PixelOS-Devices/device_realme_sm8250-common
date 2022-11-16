@@ -848,4 +848,8 @@
     <!-- Expected value from fast charging status file  -->
     <string name="config_oemFastChargerStatusValue" translatable="false">1</string>
 
+    <!-- Sensor types -->
+    <string name="pickup_sensor_type">com.oneplus.sensor.pickup</string>
+    <string name="pocket_sensor_type">com.oneplus.sensor.pocket</string>
+
 </resources>
