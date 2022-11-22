@@ -341,15 +341,6 @@ odm/etc/camera/fw_lut/skinLUTs_yuv16_10.bin
 odm/etc/camera/fw_lut/skinLUTs_yuv16_11.bin
 odm/etc/camera/fw_lut/skinLUTs_yuv16_12.bin
 odm/etc/camera/fw_lut/skinLUTs_yuv16_13.bin
-odm/etc/camera/megvii/fusion_model
-odm/etc/camera/megvii/fusion_model_post
-odm/etc/camera/megvii/merged_model
-odm/etc/camera/megvii/merged_model_post
-odm/etc/camera/megvii/video_retention_model
-odm/etc/camera/megvii/video_retention_model_post
-odm/etc/camera/megvii/videolut_background.png
-odm/etc/camera/megvii/videolut_portrait.png
-odm/etc/camera/megvii/videolut_portrait_front.png
 odm/etc/camera/micFilter/blue_pink_3.png
 odm/etc/camera/micFilter/curve_0.png
 odm/etc/camera/micFilter/green_orange_2.png
