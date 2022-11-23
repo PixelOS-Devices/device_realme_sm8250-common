@@ -247,6 +247,7 @@ PRODUCT_PACKAGES += \
     init.class_main.sh \
     init.oplus.rc \
     init.oplus.sh \
+    init.oplus.display.rc \
     init.oplus.touch.rc \
     init.qcom.early_boot.sh \
     init.qcom.post_boot.sh \
