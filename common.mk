@@ -267,6 +267,8 @@ PRODUCT_PACKAGES += \
     libavservices_minijail.vendor \
     libcodec2_vndk.vendor \
     libcodec2_hidl@1.0.vendor
+    
+GENERIC_ODM_IMAGE := true
 
 # Net
 PRODUCT_PACKAGES += \
