@@ -235,6 +235,10 @@ PRODUCT_PACKAGES += \
     libhidltransport.vendor \
     libhwbinder.vendor
 
+# Ih8sn
+PRODUCT_PACKAGES += \
+    ih8sn
+
 # IPACM
 PRODUCT_PACKAGES += \
     ipacm \
@@ -412,7 +416,8 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/interfaces \
     hardware/google/pixel \
     hardware/oplus \
-    vendor/qcom/opensource/usb/etc
+    vendor/qcom/opensource/usb/etc \
+    vendor/ih8sn
 
 # Telephony
 PRODUCT_PACKAGES += \
