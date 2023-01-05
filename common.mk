@@ -341,6 +341,9 @@ PRODUCT_PACKAGES += \
     OPlusTetheringResCommon \
     WifiResTarget
 
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-lineage
+
 # Partition
 PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
