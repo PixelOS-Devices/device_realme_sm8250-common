@@ -324,6 +324,7 @@ $(call inherit-product, hardware/oplus/overlay/qssi/qssi.mk)
 PRODUCT_PACKAGES += \
     CarrierConfigResCommon \
     FrameworksResTarget \
+    OPlusCarrierConfigResCommon \
     OPlusFrameworksResCommon \
     OPlusSettingsResCommon \
     OPlusSystemUIResCommon \
