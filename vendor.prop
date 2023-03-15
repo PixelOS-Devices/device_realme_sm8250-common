@@ -97,7 +97,7 @@ vendor.camera.aux.packageexcludelist=org.telegram.messenger,org.thunderdog.chall
 vendor.camera.aux.packagelist=org.pixelexperience.faceunlock
 
 # Chipset
-ro.soc.manufacturer=Qualcomm
+ro.soc.manufacturer=QTI
 ro.soc.model=SM8250
 
 # Crypto
