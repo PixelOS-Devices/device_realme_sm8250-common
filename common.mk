@@ -35,17 +35,12 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio-impl \
     android.hardware.soundtrigger@2.3-impl
 
-ifneq ($(TARGET_HAS_AUDIO_LVIMFS),true)
 PRODUCT_PACKAGES += \
-    audio.primary.kona \
-    audio_amplifier.kona
-endif
-
-PRODUCT_PACKAGES += \
+    audio_amplifier.kona \
     audio.bluetooth.default \
+    audio.primary.kona \
     audio.r_submix.default \
-    audio.usb.default \
-    sound_trigger.primary.kona
+    audio.usb.default
 
 PRODUCT_PACKAGES += \
     liba2dpoffload \
